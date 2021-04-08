@@ -3,7 +3,7 @@ public class faculty {
   private String name;
   private String department;
   private String designation;
-  private int age;
+  private double age;
   private double salary;
   
   public int getFid() {
@@ -30,7 +30,7 @@ public class faculty {
   public void setDesignation(String designation) {
     this.designation = designation;
   }
-  public int getAge() {
+  public double getAge() {
     return age;
   }
   public void setAge(int age) {
